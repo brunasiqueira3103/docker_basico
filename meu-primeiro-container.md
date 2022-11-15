@@ -31,6 +31,8 @@
 	RUN apt update && apt install -y python3 && apt clean  <br/>
 	COPY app.py /opt/app.py <br/>
 	CMD python3 /opt/app.py <br/> <br/>
+	
+	
 
 |---> Buildar, para de fato gerar a imagem:  <br/>  <br/>
 # docker build . -t meuprimeirocontainer  <br/>
@@ -39,6 +41,9 @@
 |---> Gerar container a parti da imagem criada:  <br/>
 # docker run -dti --name meu-app meuprimeirocontainer
 
-|---> 
+![meuprimeiro container](https://user-images.githubusercontent.com/104859742/201987541-24ee12dc-3ff6-4975-8a9b-e33138045091.png)
+
+	
+
 <h3/>
  <br/>
