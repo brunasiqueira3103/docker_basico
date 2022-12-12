@@ -7,13 +7,19 @@
 <h4>
 Utilizei esse passo a passo (ubuntu-server) <br/>
 https://www.hostinger.com.br/tutoriais/install-docker-ubuntu  <br/> <br/>
+
+ou por script:
     
-root@server:~# curl -fsSL https://get.docker.com -o get-docker.sh <br/>
-root@server:~# sudo sh get-docker.sh <br/><br/>
+sudo curl -fsSL https://get.docker.com -o get-docker.sh <br/>
+comentar a parte do script que tem cdrom: <br/>
 sudo nano /etc/apt/sources.list <br/>
-#deb [check-date=no] file:///cdrom jammy main restricted <br/>
+>>>>#deb [check-date=no] file:///cdrom jammy main restricted <br/>
+    
+    
+sudo sh get-docker.sh <br/>
    
 <h4/>
+    
 ---
 <h3>>>> REALIZANDO O DOWNLOAD DE IMAGEM <h3/>
 <h4>
