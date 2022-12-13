@@ -1,0 +1,10 @@
+    
+    
+Após instalar, lembre-se de executar o comando 
+   sudo usermod -aG docker $USER 
+e reiniciar sua sessão para utilizar o Docker sem precisar usar o sudo.
+    
+    
+docker run –mount type=bind,source=/home/diretorio,target=/app-exemplo nome-imagem
+
+
